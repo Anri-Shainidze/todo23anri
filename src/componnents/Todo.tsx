@@ -13,7 +13,7 @@ export interface TodoProps extends Todos {
   onDelete: () => void;
 }
 
-const Todo = ({ date, isActive, text, onDelete }: TodoProps) => {
+const Todo = ({ date, isActive, text,  }: TodoProps) => {
   const formatTime = (date: Date) => {
     const hours = date.getHours();
     const minutes = date.getMinutes();
