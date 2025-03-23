@@ -1,5 +1,4 @@
 import "./Todo.css";
-import { GoTrash } from "react-icons/go";
 
 
 
