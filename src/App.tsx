@@ -2,8 +2,6 @@ import { FormEvent, useRef, useState, useEffect } from "react";
 import "./App.css";
 import logo1 from "../src/assets/asd.png";
 import Todo, { Todos } from "./componnents/Todo";
-import { FaMoon } from "react-icons/fa";
-import { FaSun } from "react-icons/fa";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 
 
