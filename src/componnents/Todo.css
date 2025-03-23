@@ -1,0 +1,34 @@
+.noco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.noco-ocon{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 15px;
+
+}
+.roro-contas{
+    width: 100%;
+}
+#del{
+    color: red;
+    cursor: pointer;
+}
+.mokoall{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.trash{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Sigmar&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: rgba(238, 238, 238, 1);
+}
+
+.all-in {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mokosoko {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  position: relative;
+  border-radius: 10px;
+  height: 580px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 2px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.only-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.erti-header {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+#sticklogs {
+  width: 100%;
+  display: block;
+}
+
+.ori-section {
+  flex-shrink: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sami-todossec {
+  flex-grow: 1;
+  width: 100%;
+  margin-left: 3%;
+  overflow-y: auto;
+  min-height: 100px;
+}
+
+#forstofirst {
+  height: 49px;
+  width: 275px;
+  border-radius: 5px;
+  background: rgba(235, 239, 242, 1);
+  border: none;
+  outline: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#plusbutton {
+  width: 88px;
+  height: 49px;
+  gap: 11px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(32, 238, 176, 1);
+  margin-left: 10px;
+  border: none;
+  font-size: large;
+  color: white;
+}
+.for-todo{
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+}
+
+.header-todo {
+  font-family: Inter;
+  font-weight: 700;
+  color: rgba(0, 127, 219, 1);
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.no-todosyet {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  color: #999;
+}
+.mokoall{
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: Inter;
+  margin-top: 21%;
+  color: #007FDB;
+}
